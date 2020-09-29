@@ -1,0 +1,56 @@
+header{
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+}
+
+nav ul{
+	display: flex;
+	list-style-type: none;
+}
+
+nav ul a{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+}
+
+#article-list{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+body{
+	background-image: url("../img/pattern.jpg");
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	background-color: white;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+footer{
+	overflow: hidden;
+	background-color: black;
+	width: 100%;
+	left: 0;
+    bottom: 0;
+}
+
+h5{
+	color: white;
+	text-align: center;
+}
