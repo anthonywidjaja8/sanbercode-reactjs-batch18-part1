@@ -14,10 +14,10 @@ var kataKedua = "2";
 var kataKetiga = "4";
 var kataKeempat = "5";
 
-kataPertama = Number(kataPertama);
-kataKedua = Number(kataKedua);
-kataKetiga = Number(kataKetiga);
-kataKeempat = Number(kataKeempat);
+kataPertama = parseInt(kataPertama);
+kataKedua = parseInt(kataKedua);
+kataKetiga = parseInt(kataKetiga);
+kataKeempat = parseInt(kataKeempat);
 
 console.log(kataPertama+kataKedua+kataKetiga+kataKeempat);
 
@@ -28,7 +28,7 @@ var kataPertama = kalimat.substring(0, 3);
 var kataKedua = kalimat.substring(4, 14);
 var kataKetiga = kalimat.substring(15, 18);
 var kataKeempat = kalimat.substring(19, 24);
-var kataKelima = kalimat.substring(25)
+var kataKelima = kalimat.substring(25);
 
 console.log('Kata Pertama: ' + kataPertama); 
 console.log('Kata Kedua: ' + kataKedua); 
@@ -39,11 +39,11 @@ console.log('Kata Kelima: ' + kataKelima);
 //soal 4
 var nilai = 75;
 
-if(nilai >= 80) console.log('Indeks A');
-else if(nilai >=70 && nilai < 80) console.log('Indeks B');
-else if(nilai >=60 && nilai < 70) console.log('Indeks C');
-else if(nilai >=50 && nilai < 60) console.log('Indeks D');
-else if(nilai < 50) console.log('Indeks E');
+if(nilai >= 80) console.log('indeksnya A');
+else if(nilai >=70 && nilai < 80) console.log('indeksnya B');
+else if(nilai >=60 && nilai < 70) console.log('indeksnya C');
+else if(nilai >=50 && nilai < 60) console.log('indeksnya D');
+else if(nilai < 50) console.log('indeksnya E');
 
 //soal 5
 var tanggal = 28;
